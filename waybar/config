@@ -1,0 +1,93 @@
+{
+  "layer": "top",
+  "position": "top",
+  "mod": "dock",
+  "exclusive": true,
+  "passthrough": false,
+  "gtk-layer-shell": true,
+  "height": 0,
+  "modules-left": ["hyprland/window"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": [
+      //"tray",
+      //"mpd",
+      "pulseaudio",
+      "mpris",
+      "clock"
+  ],
+
+  "hyprland/window": {
+      "format": "{}"
+  },
+  "hyprland/workspaces": {
+      "disable-scroll": true,
+      "all-outputs": false,
+      "on-click": "activate",
+      //"format": "{icon}",
+  },
+
+  "mpris": {
+    "format": "{status_icon} {length}",
+    "format-paused": "{status_icon} <i>{position}/{length}</i>",
+    "player-icons": {
+                    "default": "▶",
+                    "mpv": ""
+                    },
+    "status-icons": {
+      "playing": "▶",
+      "paused": ""
+    },
+    // "ignored-players": ["firefox"]
+  },
+
+  "mpd": {
+    "format": " {stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon} {title}",
+    "format-disconnected": " Disconnected",
+    "format-stopped": " {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Not Playing",
+    "interval": 10,
+    "consume-icons": {
+      "on": " " // Icon shows only when "consume" is on
+    },
+    "random-icons": {
+      "on": " "
+    },
+    "repeat-icons": {
+      "on": " "
+    },
+    "single-icons": {
+      "on": "1 "
+    },
+    "state-icons": {
+      "paused": "",
+      "playing": ""
+    },
+    "tooltip-format": "MPD (connected)",
+    "tooltip-format-disconnected": "MPD (disconnected)"
+  },
+  "tray": {
+      "icon-size": 13,
+      "spacing": 10
+  },
+  "clock": {
+      "format": " {:%d %b   %H:%M}",
+      "tooltip-format": "<big>{:%Y}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+   "pulseaudio": {
+      "format": "{icon} {volume}%",
+      "tooltip": false,
+      "format-muted": "Muted ",
+      "on-click": "pamixer -t",
+      "on-scroll-up": "pamixer -i 5",
+      "on-scroll-down": "pamixer -d 5",
+      "scroll-step": 5,
+      "format-icons": {
+          "headphone": "",
+          "hands-free": "",
+          "headset": "",
+          "phone": "",
+          "portable": "",
+          "car": "",
+          "default": ["", "", ""]
+      }
+  },
+}
