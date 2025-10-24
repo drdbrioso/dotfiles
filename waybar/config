@@ -1,93 +1,121 @@
 {
-  "layer": "top",
-  "position": "top",
-  "mod": "dock",
-  "exclusive": true,
-  "passthrough": false,
-  "gtk-layer-shell": true,
-  "height": 0,
-  "modules-left": ["hyprland/window"],
-  "modules-center": ["hyprland/workspaces"],
-  "modules-right": [
-      //"tray",
-      //"mpd",
-      "pulseaudio",
-      "mpris",
-      "clock"
-  ],
-
-  "hyprland/window": {
-      "format": "{}"
-  },
-  "hyprland/workspaces": {
-      "disable-scroll": true,
-      "all-outputs": false,
-      "on-click": "activate",
-      //"format": "{icon}",
-  },
-
-  "mpris": {
-    "format": "{status_icon} {length}",
-    "format-paused": "{status_icon} <i>{position}/{length}</i>",
-    "player-icons": {
-                    "default": "▶",
-                    "mpv": ""
-                    },
-    "status-icons": {
-      "playing": "▶",
-      "paused": ""
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    // "height": 36, // Waybar height (to be removed for auto height)
+    // Archived modules
+    // "custom/gpu", "bluetooth",  "custom/weather", "temperature", "sway/window"
+    // Choose the order of the modules
+    "modules-left": [ "clock"],
+    "modules-center": ["niri/workspaces"],
+    "modules-right": ["pulseaudio", "bluetooth", "network", "tray"],
+    // Modules configuration
+    "niri/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "urgent": "",
+            "default": ""
+        }
     },
-    // "ignored-players": ["firefox"]
-  },
-
-  "mpd": {
-    "format": " {stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon} {title}",
-    "format-disconnected": " Disconnected",
-    "format-stopped": " {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Not Playing",
-    "interval": 10,
-    "consume-icons": {
-      "on": " " // Icon shows only when "consume" is on
+    "niri/mode": {
+        "format": "<span style=\"italic\">{}</span>"
     },
-    "random-icons": {
-      "on": " "
+    "niri/window": {
+        "format": "{}",
+        "max-length": 50, 
+        "tooltip": false
     },
-    "repeat-icons": {
-      "on": " "
+    "bluetooth": {
+        "interval": 30,
+        "format": "{icon}",
+        // "format-alt": "{status}",
+        "format-icons": {
+            "enabled": "",
+            "disabled": ""
+        },
+        "on-click": "blueberry"
+    },    
+    "niri/language": {
+        "format": "<big></big> {}",
+        "max-length": 5,
+        "min-length": 5,        
     },
-    "single-icons": {
-      "on": "1 "
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        },
+        "tooltip": "true"
     },
-    "state-icons": {
-      "paused": "",
-      "playing": ""
+    "tray": {
+        //"icon-size": 11,
+        "spacing": 5
     },
-    "tooltip-format": "MPD (connected)",
-    "tooltip-format-disconnected": "MPD (disconnected)"
-  },
-  "tray": {
-      "icon-size": 13,
-      "spacing": 10
-  },
-  "clock": {
-      "format": " {:%d %b   %H:%M}",
-      "tooltip-format": "<big>{:%Y}</big>\n<tt><small>{calendar}</small></tt>"
-  },
-   "pulseaudio": {
-      "format": "{icon} {volume}%",
-      "tooltip": false,
-      "format-muted": "Muted ",
-      "on-click": "pamixer -t",
-      "on-scroll-up": "pamixer -i 5",
-      "on-scroll-down": "pamixer -d 5",
-      "scroll-step": 5,
-      "format-icons": {
-          "headphone": "",
-          "hands-free": "",
-          "headset": "",
-          "phone": "",
-          "portable": "",
-          "car": "",
-          "default": ["", "", ""]
-      }
-  },
+    "clock": {
+        "format": "  {:%H:%M   %e %b}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "today-format": "<b>{}</b>",
+        "on-click": "gnome-calendar"
+    },
+    "network": {
+        // "interface": "wlan0", // (Optional) To force the use of this interface,
+        "format-wifi": "  {essid}",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "family": "ipv4",
+        "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\n {bandwidthUpBits}  {bandwidthDownBits}",
+        "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n {bandwidthUpBits}  {bandwidthDownBits}"
+    },
+    "pulseaudio": {
+        "scroll-step": 3, // %, can be a float
+        "format": "{icon} {volume}% {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        //"format-source": "{volume}% ",
+        //"format-source-muted": "",
+        "format-source": "",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol",
+        "on-click-right": "pactl set-source-mute @DEFAULT_SOURCE@ toggle"
+    },
+    "custom/pacman": {
+        "format": "<big>􏆲</big>  {}",
+        "interval": 3600,                     // every hour
+        "exec": "checkupdates | wc -l",       // # of updates
+        "exec-if": "exit 0",                  // always run; consider advanced run conditions
+        "on-click": "kitty -e 'yay'; pkill -SIGRTMIN+8 waybar", // update system
+        "signal": 8,
+        "max-length": 5,
+        "min-length": 3
+    },
+    
+    "custom/media": {
+        "format": "{icon} {}",
+        "return-type": "json",
+        "max-length": 40,
+        "format-icons": {
+            "spotify": "",
+            "default": "🎜"
+        },
+        "escape": true,
+    },
+     
 }

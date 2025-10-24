@@ -1,0 +1,29 @@
+Visual Studio Code (1.85.2, undefined, desktop)
+Jupyter Extension Version: 2023.11.1100101639.
+Python Extension Version: 2024.2.1.
+Pylance Extension Version: 2024.3.2.
+Platform: linux (x64).
+No workspace folder opened.
+20:42:06.055 [info] Start refreshing Kernel Picker (1750722126055)
+20:42:06.056 [info] Using Pylance
+20:42:06.355 [info] End refreshing Kernel Picker (1750722126055)
+20:42:06.440 [info] Start refreshing Kernel Picker (1750722126440)
+20:42:06.953 [warn] Failed to get activated env vars for /bin/python in 494ms
+20:42:06.965 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+20:42:07.003 [info] Process Execution: /bin/python -m pip list
+20:42:07.458 [info] End refreshing Kernel Picker (1750722126440)
+20:42:07.887 [warn] No interpreter for Pylance for Notebook URI "~/Downloads/trabEstatisticaB.ipynb"
+20:44:17.374 [info] Start refreshing Interpreter Kernel Picker
+20:44:17.374 [info] Start refreshing Kernel Picker (1750722257374)
+20:44:17.382 [warn] No interpreter for Pylance for Notebook URI "~/Downloads/Statistical_Analysis.ipynb"
+20:44:18.628 [info] End refreshing Kernel Picker (1750722257374)
+20:44:21.307 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.13.3) for '~/Desktop/trabEstatisticaB.ipynb' (disableUI=true)
+20:44:21.358 [warn] Failed to get activated env vars for /bin/python in 36ms
+20:44:21.365 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+20:44:21.375 [info] Process Execution: /bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-106417tp6G4K8GKUT.json
+    > cwd: ~/Desktop
+20:44:22.445 [info] Process Execution: /bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2023.11.1100101639-linux-x64/pythonFiles/printJupyterDataDir.py
+20:44:39.436 [info] Disposing HostJupyterExecution
+20:44:39.436 [info] Dispose Kernel '~/Desktop/trabEstatisticaB.ipynb' associated with '~/Desktop/trabEstatisticaB.ipynb'
+20:44:39.437 [info] Dispose Kernel process 11063.
+20:44:39.443 [info] Disposing HostJupyterExecution

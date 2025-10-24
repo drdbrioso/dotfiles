@@ -1,0 +1,61 @@
+[16:20:35.471] Log Level: 2
+[16:20:35.476] SSH Resolver called for "ssh-remote+senc.icmc.usp.br", attempt 1
+[16:20:35.476] "remote.SSH.useLocalServer": true
+[16:20:35.476] "remote.SSH.useExecServer": false
+[16:20:35.476] "remote.SSH.path": undefined
+[16:20:35.476] "remote.SSH.configFile": undefined
+[16:20:35.476] "remote.SSH.useFlock": true
+[16:20:35.476] "remote.SSH.lockfilesInTmp": false
+[16:20:35.476] "remote.SSH.localServerDownload": auto
+[16:20:35.476] "remote.SSH.remoteServerListenOnSocket": false
+[16:20:35.477] "remote.SSH.showLoginTerminal": false
+[16:20:35.477] "remote.SSH.defaultExtensions": []
+[16:20:35.477] "remote.SSH.loglevel": 2
+[16:20:35.477] "remote.SSH.enableDynamicForwarding": true
+[16:20:35.477] "remote.SSH.enableRemoteCommand": false
+[16:20:35.477] "remote.SSH.serverPickPortsFromRange": {}
+[16:20:35.477] "remote.SSH.serverInstallPath": {}
+[16:20:35.483] VS Code version: 1.85.2
+[16:20:35.483] Remote-SSH version: remote-ssh@0.108.2023112915
+[16:20:35.483] linux x64
+[16:20:35.484] SSH Resolver called for host: senc.icmc.usp.br
+[16:20:35.485] Setting up SSH remote "senc.icmc.usp.br"
+[16:20:35.487] Acquiring local install lock: /tmp/vscode-remote-ssh-2f5e6878-install.lock
+[16:20:35.487] Looking for existing server data file at /home/drdbrioso/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-2f5e6878-8b3775030ed1a69b13e4f4c628c612102e30a681-0.108.2023112915-tr/data.json
+[16:20:35.500] Using commit id "8b3775030ed1a69b13e4f4c628c612102e30a681" and quality "stable" for server
+[16:20:35.504] Install and start server if needed
+[16:20:35.506] PATH: /usr/local/bin:/usr/bin:/usr/local/sbin:/opt/android-sdk/platform-tools:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/drdbrioso/.local/bin:/opt/android-sdk/platform-tools:/home/drdbrioso/.local/bin:/opt/nvim/:/home/drdbrioso/.local/bin
+[16:20:35.506] Checking ssh with "ssh -V"
+[16:20:35.516] > OpenSSH_10.2p1, OpenSSL 3.6.0 1 Oct 2025
+
+[16:20:35.519] askpass server listening on /run/user/1000/vscode-ssh-askpass-d89c421f2eec0ef632cca8b45dac855254b8ceb7.sock
+[16:20:35.519] Spawning local server with {"serverId":1,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-03946d4d06eaa57feb3afa79b67d8bf19afa769a.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","43291","-o","ConnectTimeout=15","senc.icmc.usp.br"],"serverDataFolderName":".vscode-server","dataFilePath":"/home/drdbrioso/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-2f5e6878-8b3775030ed1a69b13e4f4c628c612102e30a681-0.108.2023112915-tr/data.json"}
+[16:20:35.519] Local server env: {"SSH_AUTH_SOCK":"/run/user/1000/gcr/ssh","SHELL":"/usr/bin/zsh","DISPLAY":":0","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.108.2023112915/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/home/drdbrioso/Desktop/code-stable-x64-1705560028/VSCode-linux-x64/code","VSCODE_SSH_ASKPASS_EXTRA_ARGS":"--ms-enable-electron-run-as-node","VSCODE_SSH_ASKPASS_MAIN":"/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.108.2023112915/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-d89c421f2eec0ef632cca8b45dac855254b8ceb7.sock"}
+[16:20:35.522] Spawned 8039
+[16:20:35.606] > local-server-1> Running ssh connection command: "-v -T -D 43291 -o ConnectTimeout=15 senc.icmc.usp.br"
+[16:20:35.609] > local-server-1> Spawned ssh, pid=8066
+[16:20:36.218] stderr> debug1: Server host key: ssh-ed25519 SHA256:pVqYJ9se5EhmIAvOwtJIlmPU+tHanHbPTfdzOa8qTZ4
+[16:20:36.223] stderr> ** WARNING: connection is not using a post-quantum key exchange algorithm.
+[16:20:36.223] stderr> ** This session may be vulnerable to "store now, decrypt later" attacks.
+[16:20:36.223] stderr> ** The server may need to be upgraded. See https://openssh.com/pq.html
+[16:20:36.727] Got askpass request: {"request":"web-senc@senc.icmc.usp.br's password:"}
+[16:20:36.728] Showing password prompt
+[16:20:36.728] Listening for interwindow password on /run/user/1000/vscode-ssh-askpass-87b0cb83d83713141c7f867db49c8e658389b68f.sock
+[16:20:36.728] Writing password prompt to globalState
+[16:21:13.048] Got password response
+[16:21:13.049] Interactor gave response: ***********
+[16:21:13.050] Cleaning up other-window auth server
+[16:21:13.456] stderr> Authenticated to senc.icmc.usp.br ([143.107.183.96]:22) using "password".
+[16:21:30.055] Terminating local server
+[16:21:30.061] Resolver error: Error: Connecting with SSH timed out
+	at g.Timeout (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.108.2023112915/out/extension.js:2:642829)
+	at Timeout._onTimeout (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.108.2023112915/out/extension.js:2:707323)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)
+[16:21:30.064] Server delay-shutdown request failed: read ECONNRESET
+[16:21:30.067] Local server exit: 15
+[16:21:30.075] ------
+
+
+
+

@@ -1,0 +1,242 @@
+2025-10-07 19:14:39.874 [info] Started local extension host with pid 19916.
+2025-10-07 19:14:40.067 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-07 19:14:40.301 [error] Extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-07 19:14:40.409 [error] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6611)
+    at k (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:15376)
+    at O (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:15447)
+    at q (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:15999)
+    at e.initialize (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/488.js:1:14196)
+    at e.r [as initialize] (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:41127)
+    at /home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/488.js:1:21382
+    at l (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:28109)
+    at e.initialize (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/488.js:1:20252)
+    at n.r [as initialize] (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:41127)
+    at Array.<anonymous> (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:33245)
+    at W (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:23435)
+    at l (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:33206)
+    at Array.<anonymous> (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:10258)
+    at W (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:23435)
+    at Object.initialize (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:10214)
+    at H (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:11451)
+    at e.<computed> (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:13424)
+    at Object.initialize (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:40576)
+    at e.<computed> (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:16508)
+    at Object.initialize (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:40576)
+    at /home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:17748
+    at l (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:28109)
+    at e.initialize (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:17105)
+    at n.r [as initialize] (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:41127)
+    at /home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/extension.js:2:496375
+    at async /home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/extension.js:2:495754
+2025-10-07 19:14:40.410 [error] navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.: PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:391:6611)
+    at S (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:15128)
+    at O (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:15461)
+    at q (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:15999)
+    at e.initialize (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/488.js:1:14196)
+    at e.r [as initialize] (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:41127)
+    at /home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/488.js:1:21382
+    at l (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:28109)
+    at e.initialize (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/488.js:1:20252)
+    at n.r [as initialize] (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:41127)
+    at Array.<anonymous> (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:33245)
+    at W (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:23435)
+    at l (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:33206)
+    at Array.<anonymous> (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:10258)
+    at W (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:23435)
+    at Object.initialize (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:10214)
+    at H (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:11451)
+    at e.<computed> (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:13424)
+    at Object.initialize (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:40576)
+    at e.<computed> (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:16508)
+    at Object.initialize (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:40576)
+    at /home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:17748
+    at l (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:28109)
+    at e.initialize (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/164.js:1:17105)
+    at n.r [as initialize] (/home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/939.js:2:41127)
+    at /home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/extension.js:2:496375
+    at async /home/drdbrioso/.vscode/extensions/ms-vscode-remote.remote-ssh-0.107.1/out/extension.js:2:495754
+2025-10-07 19:14:40.411 [info] Invoking resolveAuthority(ssh-remote)...
+2025-10-07 19:14:40.412 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][1ms] obtaining proxy...
+2025-10-07 19:14:40.412 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][1ms] invoking...
+2025-10-07 19:14:41.414 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][1001ms] waiting...
+2025-10-07 19:14:42.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][2001ms] waiting...
+2025-10-07 19:14:43.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][3001ms] waiting...
+2025-10-07 19:14:44.418 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][4005ms] waiting...
+2025-10-07 19:14:45.414 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][5001ms] waiting...
+2025-10-07 19:14:46.414 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][6001ms] waiting...
+2025-10-07 19:14:47.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][7001ms] waiting...
+2025-10-07 19:14:48.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][8001ms] waiting...
+2025-10-07 19:14:49.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][9001ms] waiting...
+2025-10-07 19:14:50.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][10001ms] waiting...
+2025-10-07 19:14:51.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][11001ms] waiting...
+2025-10-07 19:14:52.414 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][12001ms] waiting...
+2025-10-07 19:14:53.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][13001ms] waiting...
+2025-10-07 19:14:54.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][14001ms] waiting...
+2025-10-07 19:14:55.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][15001ms] waiting...
+2025-10-07 19:14:56.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][16001ms] waiting...
+2025-10-07 19:14:57.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][17001ms] waiting...
+2025-10-07 19:14:58.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][18001ms] waiting...
+2025-10-07 19:14:59.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][19001ms] waiting...
+2025-10-07 19:15:00.414 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][20001ms] waiting...
+2025-10-07 19:15:01.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][21001ms] waiting...
+2025-10-07 19:15:02.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][22001ms] waiting...
+2025-10-07 19:15:03.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][23001ms] waiting...
+2025-10-07 19:15:04.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][24001ms] waiting...
+2025-10-07 19:15:05.414 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][25001ms] waiting...
+2025-10-07 19:15:06.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][26001ms] waiting...
+2025-10-07 19:15:07.414 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][27001ms] waiting...
+2025-10-07 19:15:08.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][28001ms] waiting...
+2025-10-07 19:15:09.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][29001ms] waiting...
+2025-10-07 19:15:10.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][30001ms] waiting...
+2025-10-07 19:15:11.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][31001ms] waiting...
+2025-10-07 19:15:12.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][32001ms] waiting...
+2025-10-07 19:15:13.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][33001ms] waiting...
+2025-10-07 19:15:14.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][34001ms] waiting...
+2025-10-07 19:15:15.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][35001ms] waiting...
+2025-10-07 19:15:16.413 [info] [LocalProcess0][resolveAuthority(ssh-remote,1)][36001ms] waiting...
+2025-10-07 19:15:16.998 [error] [LocalProcess0][resolveAuthority(ssh-remote,1)][36587ms] returned an error {"code":"NotAvailable","message":"Connecting with SSH timed out","detail":true}
+2025-10-07 19:15:16.999 [error] resolveAuthority(ssh-remote) returned an error after 36587 ms Connecting with SSH timed out
+2025-10-07 19:15:16.999 [error] Error received from starting extension host (kind: Remote)
+2025-10-07 19:15:17.000 [error] CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:17.000 [error] [remote-connection][attempt 1] An error occurred in initial connection! Will retry... Error:
+2025-10-07 19:15:17.000 [error] CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:17.001 [error] [remote-connection][attempt 2] An error occurred in initial connection! Will retry... Error:
+2025-10-07 19:15:17.001 [error] CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:17.002 [error] [remote-connection][attempt 3] An error occurred in initial connection! Will retry... Error:
+2025-10-07 19:15:17.002 [error] CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:17.041 [error] [remote-connection][attempt 4] An error occurred in initial connection! Will retry... Error:
+2025-10-07 19:15:17.042 [error] CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:17.088 [error] [remote-connection][attempt 5]  An error occurred in initial connection! It will be treated as a permanent error. Error:
+2025-10-07 19:15:17.089 [error] CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:17.090 [error] CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:17.091 [warning] Error getting remote process MCP environment Connecting with SSH timed out
+2025-10-07 19:15:17.091 [error] Cannot register remote filesystem provider. Error while fetching remote environment. Connecting with SSH timed out
+2025-10-07 19:15:17.091 [error] CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:17.091 [error] CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:17.092 [error] CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:17.092 [error] CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:17.093 [error] CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:17.096 [warning] Ignoring the error while validating workspace folder vscode-remote://ssh-remote%2Bsenc.icmc.usp.br/var/www - ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bsenc.icmc.usp.br/var/www'
+2025-10-07 19:15:17.096 [error] CodeExpectedError
+    at lSt.j (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:60796)
+    at async lSt.cb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:71487)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:71213
+2025-10-07 19:15:17.096 [error] ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bsenc.icmc.usp.br/var/www/.git/config': CodeExpectedError
+    at lSt.j (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:60796)
+    at async lSt.exists (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:62925)
+    at async Promise.all (index 0)
+2025-10-07 19:15:17.096 [warning] Failed to get installed servers from vscode-remote://ssh-remote%2Bsenc.icmc.usp.br/var/www/.vscode/mcp.json ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bsenc.icmc.usp.br/var/www/.vscode/mcp.json'
+2025-10-07 19:15:17.097 [error] CodeExpectedError
+    at lSt.j (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:60796)
+    at async lSt.cb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:71487)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:71213
+2025-10-07 19:15:17.097 [error] CodeExpectedError
+    at lSt.j (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:60796)
+    at async lSt.m (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:60875)
+    at async lSt.readFileStream (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:65253)
+    at async xSt.L (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3682:9979)
+    at async xSt.readStream (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3682:9754)
+    at async wwe.Eb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:1226:12360)
+    at async wwe.resolve (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:1226:10835)
+    at async CSt.W (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3682:6625)
+    at async _et.jb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:1501:18709)
+    at async IDe.setInput (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2625:79952)
+2025-10-07 19:15:17.107 [error] ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bsenc.icmc.usp.br/var/www/pom.xml': CodeExpectedError
+    at lSt.j (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:60796)
+    at async lSt.exists (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:62925)
+    at async Promise.all (index 0)
+2025-10-07 19:15:17.113 [error] CodeExpectedError
+    at lSt.j (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:60796)
+    at async lSt.cb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:71487)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:71213
+2025-10-07 19:15:17.171 [error] Connecting with SSH timed out: CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:17.172 [error] ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bsenc.icmc.usp.br/var/www': CodeExpectedError
+    at lSt.j (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:60796)
+    at async lSt.s (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:61486)
+    at async lSt.resolve (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:61367)
+    at async GCt.j (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3640:27373)
+2025-10-07 19:15:17.172 [error] Remote profiles service not available in the current window: CodeExpectedError: Remote profiles service not available in the current window
+    at wXe.getRemoteProfile (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:1268:93271)
+    at async Tkt.Y (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3711:11620)
+    at async Tkt.getInstalled (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3711:10237)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3687:51885
+    at async Promise.all (index 1)
+    at async gkt.getInstalled (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3687:51838)
+2025-10-07 19:15:17.172 [error] ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bsenc.icmc.usp.br/var/www/.vscode': CodeExpectedError
+    at lSt.j (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:60796)
+    at async lSt.exists (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3677:62925)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:566:21788
+    at async Promise.all (index 0)
+    at async TUe.v (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:566:21895)
+2025-10-07 19:15:17.227 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-07 19:15:17.278 [error] ENOPRO: No file system provider found for resource 'vscode-remote://ssh-remote%2Bsenc.icmc.usp.br/var/www'
+2025-10-07 19:15:17.308 [error] CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:18.991 [info] Auto updating outdated extensions. ms-python.debugpy, ms-python.python, ms-python.vscode-pylance, ms-toolsai.jupyter-renderers, ms-toolsai.vscode-jupyter-cell-tags, ms-toolsai.vscode-jupyter-slideshow, ms-vscode-remote.remote-containers, ms-vscode-remote.remote-ssh, ms-vscode-remote.remote-wsl, ms-vscode.remote-explorer, ms-vscode.remote-server
+2025-10-07 19:15:37.091 [error] Connecting with SSH timed out: CodeExpectedError: Connecting with SSH timed out
+    at gxt.sb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15716)
+    at async gxt.rb (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3724:15082)
+    at async gxt.fc (vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:3730:3611)
+    at async vscode-file://vscode-app/home/drdbrioso/Desktop/code-stable-x64-1759409365/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:30:82912
+2025-10-07 19:15:41.150 [info] Started local extension host with pid 20355.
+2025-10-07 19:15:41.522 [error] Extension 'ms-toolsai.jupyter' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-07 19:15:41.735 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-10-07 19:15:41.905 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-07 19:15:43.855 [info] [perf] Render performance baseline is 20ms

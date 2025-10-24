@@ -1,0 +1,6 @@
+2025-07-21 12:17:21.027 [info] update#setState idle
+2025-07-21 12:17:51.029 [info] update#setState checking for updates
+2025-07-21 12:17:51.044 [info] update#setState available for download
+2025-07-21 12:20:40.662 [info] Extension host with pid 28574 exited with code: 0, signal: unknown.
+2025-07-21 12:21:28.801 [info] Extension host with pid 28660 exited with code: 0, signal: unknown.
+2025-07-21 12:21:47.715 [info] Extension host with pid 29493 exited with code: 0, signal: unknown.

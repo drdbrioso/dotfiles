@@ -1,0 +1,3 @@
+2025-10-07 19:15:30.008 [error] #4: https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/debugpy/2025.10.0/1752186747508/Microsoft.VisualStudio.Code.Manifest?targetPlatform=linux-x64 - error GET Request timeout after 10000ms
+2025-10-07 19:15:30.011 [error] #5: https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/python/2025.14.0/1757615224628/Microsoft.VisualStudio.Code.Manifest?targetPlatform=linux-x64 - error GET Request timeout after 10000ms
+2025-10-07 19:15:30.013 [error] #6: https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/vscode-pylance/2025.8.3/1759175138680/Microsoft.VisualStudio.Code.Manifest - error GET Request timeout after 10000ms

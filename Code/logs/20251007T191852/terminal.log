@@ -1,0 +1,24 @@
+2025-10-07 19:21:33.191 [info] Latency measurements for ssh-remote+senc.icmc.usp.br backend
+window<->ptyhostservice<->ptyhost: 30.80ms
+ptyhostservice<->ptyhost: 0.65ms []
+2025-10-07 19:21:33.199 [info] Latency measurements for ssh-remote+senc.icmc.usp.br backend
+window<->ptyhostservice<->ptyhost: 30.50ms
+ptyhostservice<->ptyhost: 0.36ms []
+2025-10-07 19:21:33.222 [info] Latency measurements for ssh-remote+senc.icmc.usp.br backend
+window<->ptyhostservice<->ptyhost: 36.20ms
+ptyhostservice<->ptyhost: 0.46ms []
+2025-10-07 19:21:33.223 [info] Latency measurements for ssh-remote+senc.icmc.usp.br backend
+window<->ptyhostservice<->ptyhost: 35.90ms
+ptyhostservice<->ptyhost: 0.32ms []
+2025-10-07 19:22:27.354 [info] Latency measurements for ssh-remote+senc.icmc.usp.br backend
+window<->ptyhostservice<->ptyhost: 232.50ms
+ptyhostservice<->ptyhost: 2.68ms []
+2025-10-07 19:22:27.367 [info] Latency measurements for ssh-remote+senc.icmc.usp.br backend
+window<->ptyhostservice<->ptyhost: 197.70ms
+ptyhostservice<->ptyhost: 2.68ms []
+2025-10-07 19:22:27.369 [info] Latency measurements for ssh-remote+senc.icmc.usp.br backend
+window<->ptyhostservice<->ptyhost: 180.00ms
+ptyhostservice<->ptyhost: 2.77ms []
+2025-10-07 19:22:27.379 [info] Latency measurements for ssh-remote+senc.icmc.usp.br backend
+window<->ptyhostservice<->ptyhost: 189.90ms
+ptyhostservice<->ptyhost: 2.53ms []

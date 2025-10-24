@@ -1,0 +1,18 @@
+2025-06-23 20:42:07.449 [info] (Client) Pylance async client (2024.3.2) started with python extension (2024.2.1)
+2025-06-23 20:42:07.877 [info] [Info  - 8:42:07 PM] (10992) Pylance language server 2024.3.2 (pyright version 1.1.351, commit 87171fbf) starting
+2025-06-23 20:42:07.878 [info] [Info  - 8:42:07 PM] (10992) Server root directory: file:///home/drdbrioso/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2025-06-23 20:42:07.892 [info] [Info  - 8:42:07 PM] (10992) Starting service instance "<default>"
+2025-06-23 20:42:07.917 [info] [Info  - 8:42:07 PM] (10992) Setting pythonPath for service "<default>": "/home/drdbrioso/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist"
+2025-06-23 20:42:07.917 [info] [Info  - 8:42:07 PM] (10992) Setting environmentName for service "<default>": "3.13.3 (global)"
+2025-06-23 20:42:07.994 [info] [Info  - 8:42:07 PM] (10992) No source files found.
+2025-06-23 20:42:08.333 [info] [Info  - 8:42:08 PM] (10992) Background analysis(1) root directory: file:///home/drdbrioso/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2025-06-23 20:42:08.334 [info] [Info  - 8:42:08 PM] (10992) Background analysis(1) started
+2025-06-23 20:44:21.308 [info] [Info  - 8:44:21 PM] (10992) Starting service instance "<default>"
+2025-06-23 20:44:21.387 [info] [Info  - 8:44:21 PM] (10992) Setting pythonPath for service "<default>": "/bin/python"
+2025-06-23 20:44:21.387 [info] [Info  - 8:44:21 PM] (10992) Setting environmentName for service "<default>": "3.13.3 (global)"
+2025-06-23 20:44:21.407 [info] [Info  - 8:44:21 PM] (10992) Assuming Python version 3.13
+2025-06-23 20:44:21.520 [info] [Info  - 8:44:21 PM] (10992) No source files found.
+2025-06-23 20:44:21.850 [info] [Info  - 8:44:21 PM] (10992) Background analysis(2) root directory: file:///home/drdbrioso/.vscode/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2025-06-23 20:44:21.852 [info] [Info  - 8:44:21 PM] (10992) Background analysis(2) started
+2025-06-23 20:44:24.136 [info] [Info  - 8:44:24 PM] (10992) [BG(2)] Long operation: analyzing: file:///home/drdbrioso/Desktop/trabEstatisticaB.ipynb.py#X31sZmlsZQ%3D%3D (2203ms)
+2025-06-23 20:44:24.877 [info] [Info  - 8:44:24 PM] (10992) [BG(2)] Long operation: analyzing: file:///home/drdbrioso/Desktop/trabEstatisticaB.ipynb.py#pylancePrefixCell (2945ms)
