@@ -1,9 +1,0 @@
-2025-10-07 19:14:38.857 [info] update#setState idle
-2025-10-07 19:15:08.860 [info] update#setState checking for updates
-2025-10-07 19:15:09.626 [info] update#setState idle
-2025-10-07 19:15:40.612 [info] Extension host with pid 19916 exited with code: 0, signal: unknown.
-2025-10-07 19:17:34.741 [info] Extension host with pid 20549 exited with code: 0, signal: unknown.
-2025-10-07 19:17:37.083 [info] Extension host with pid 20653 exited with code: 0, signal: unknown.
-2025-10-07 19:17:37.137 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 20644]: crashed with code 15 and reason 'killed'
-2025-10-07 19:22:24.944 [info] Extension host with pid 20355 exited with code: 0, signal: unknown.
-2025-10-07 19:22:24.991 [error] [storage state.vscdb] backup(): Error: ENOENT: no such file or directory, stat '/home/drdbrioso/.config/Code/User/workspaceStorage/1759875409192/state.vscdb'
